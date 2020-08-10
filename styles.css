@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+body {
+    background-image: url(background-img-M104.jpg);
+    font-family: 'Noto Sans', sans-serif;
+    margin: 0px;
+}
+header{
+    width: 100%;
+    text-align: center;
+    padding: 10px 0px;
+    color: #f5f5f5;
+    background-color: #3D3D3D;
+    margin-top: 0px;
+    font-size: 1.5em;
+}
+header p {
+    margin: 0px;
+}
+
+section{
+    vertical-align: top;
+    display: inline-block;
+    margin: 50px;
+    background-color: rgb(0, 79, 143,.8);
+    min-height: 400px;
+    height: fit-content;
+    padding: 30px;
+}
+
+section input ,label ,select {
+    text-align: center;
+    width: 300px;
+    height: 30px;
+    padding: 5px;
+    display: block;
+    border-radius: 5px;
+}
+
+input, select {
+    margin-bottom: 30px;
+}
+label{
+    font-size: 1.5em;
+    color: #f5f5f5;
+}
+
+input[type='submit']{
+    background-color:  ;
+
+}
+
+table th {
+    background-color: #1F1F1F;
+}
+
+table {
+    background-color:#3D3D3D ;
+    color: #f5f5f5;
+    border: 2px solid #f5f5f5;
+}

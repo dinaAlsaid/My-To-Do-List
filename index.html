@@ -13,26 +13,26 @@
 
     <main>
         <section>
-            <form>
+            <form id="todoForm">
                 <label for="task">Task</label>
-                <input type="text" id="task">
+                <input type="text" id="task" required>
 
                 <label for="date">Date</label>
-                <input type="date" id="date">
+                <input type="date" id="date" required>
 
-                <label for="urgency"></label>
+                <label for="urgency">Urgency</label>
                 <select name="urgencyLevel" id="urgency">
                     <option value="low">low</option>
-                    <option value="medium">medium</option>
+                    <option value="medium" selected>medium</option>
                     <option value="high">high</option>
                 </select>
 
-                <label for="submitBtn">Task</label>
                 <input type="submit" id="submitBtn">
 
 
             </form>
         </section>
+        <section>
             <table id="todoTable">
                 <tr>
                     <th>Task</th>
@@ -42,10 +42,8 @@
 
             </table>
 
-        <section>
-
         </section>
     </main>
-    
+    <script src="app.js"></script>
 </body>
 </html>
