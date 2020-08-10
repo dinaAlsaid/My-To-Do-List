@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>To Do list</title>
+</head>
+<body>
+    <header>
+        <p>My To Do list</p>
+    </header>
+
+    <main>
+        <section>
+            <form>
+                <label for="task">Task</label>
+                <input type="text" id="task">
+
+                <label for="date">Date</label>
+                <input type="date" id="date">
+
+                <label for="urgency"></label>
+                <select name="urgencyLevel" id="urgency">
+                    <option value="low">low</option>
+                    <option value="medium">medium</option>
+                    <option value="high">high</option>
+                </select>
+
+                <label for="submitBtn">Task</label>
+                <input type="submit" id="submitBtn">
+
+
+            </form>
+        </section>
+            <table id="todoTable">
+                <tr>
+                    <th>Task</th>
+                    <th>Date</th>
+                    <th>Urgency</th>
+                </tr>
+
+            </table>
+
+        <section>
+
+        </section>
+    </main>
+    
+</body>
+</html>
